@@ -60,11 +60,11 @@ a {
   text-align: right;
   padding: 6px;
 }
-#last-action-screen {
+#last-operation-screen {
   min-height: 20px;
   font-size: 15px;
 }
-#current-action-screen {
+#current-operation-screen {
   min-height: 40px;
   font-size: 35px;
 }
