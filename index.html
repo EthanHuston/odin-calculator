@@ -7,5 +7,54 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header id="header">
+      <p>Ethan's Simple Calculator</p>
+      <ul>
+        <li><a href="">Usage</a></li>
+        <li><a href="">Author</a></li>
+      </ul>
+    </header>
+    <main id="main">
+      <div id="calculator">
+        <div class="screen-container">
+          <div id="lastActionScreen"></div>
+          <div id="currentActionScreen">0</div>
+        </div>
+        <div class="buttons-container">
+          <div id="screen-buttons">
+            <button class="admin-button" id="clear-btn">CLEAR</button>
+            <button class="admin-button" id="delete-btn">DELETE</button>
+          </div>
+          <div id="operation-buttons">
+            <button class="button digit" id="7">7</button>
+            <button class="button digit" id="8">8</button>
+            <button class="button digit" id="9">9</button>
+            <button class="button operator" id="divide">/</button>
+            <button class="button digit" id="4">4</button>
+            <button class="button digit" id="5">5</button>
+            <button class="button digit" id="6">6</button>
+            <button class="button operator" id="multiply">*</button>
+            <button class="button digit" id="1">1</button>
+            <button class="button digit" id="2">2</button>
+            <button class="button digit" id="3">3</button>
+            <button class="button operator" id="subtract">-</button>
+            <button class="button digit" id="point">.</button>
+            <button class="button digit" id="0">0</button>
+            <button class="button digit" id="equal">=</button>
+            <button class="button operator" id="add">+</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Ethan Huston
+      </p>
+    </footer>
+  </body>
 </html>
